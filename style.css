@@ -1,0 +1,140 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.header {
+  text-align: center;
+  padding: 20px;
+  background-color: lightsteelblue;
+  color: blue;
+  font-family: verdana, arial, sans-serif;
+}
+
+/* adjust typography defaults */
+body {
+  margin: 1rem;
+  font-family: sans-serif;
+  line-height: 1.5;
+  background-color: darkslateblue;
+  font-family: "Times New Roman", serif;
+}
+
+/* images and videos max out at full width */
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+#gameButtonArea > button {
+  width: 200px;
+  height: 200px;
+  margin: 2px;
+}
+
+.hidden {
+  display: none;
+}
+
+#button1 {
+  background: lime;
+}
+#button1:active, #button1.lit {
+  background: darkolivegreen;
+}
+
+#button2 {
+  background: mediumorchid;
+}
+#button2:active, #button2.lit {
+  background: purple;
+}
+
+#button3 {
+  background: aqua;
+}
+#button3:active, #button3.lit {
+  background: navy;
+}
+
+#button4 {
+  background: salmon;
+}
+
+#button4:active, #button4.lit {
+  background: crimson;
+}
+
+#button5 {
+  background: lightgray;
+}
+#button5:active, #button5.lit {
+  background: gray;
+}
+
+#button6 {
+  background: khaki;
+}
+#button6:active, #button6.lit {
+  background: darkkhaki;
+}
+
+#button7 {
+  background: slategray;
+}
+#button7:active, #button7.lit {
+  background: darkslategray;
+}
+
+#button8 {
+  background: seashell;
+}
+
+#button8:active, #button8.lit {
+  background: gainsboro;
+}
+
+#button9 {
+  background: paleturquoise;
+}
+#button9:active, #button9.lit {
+  background: darkturquoise;
+}
+
+#button10 {
+  background: yellow;
+}
+#button10:active, #button10.lit {
+  background: gold;
+}
+
+#button11 {
+  background: red;
+}
+#button11:active, #button11.lit {
+  background: maroon;
+}
+
+#button12 {
+  background: deepskyblue;
+}
+
+#button12:active, #button12.lit {
+  background: dodgerblue;
+}
